@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  get 'pages/Home'
+  get 'pages/home'
 
-  get 'pages/Contact'
+  get 'pages/contact'
 
-  get 'pages/Shop'
+  get 'pages/shop'
 
-  get 'pages/More'
+  get 'pages/more'
 
   resources :blogs
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
